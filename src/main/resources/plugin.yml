@@ -1,0 +1,10 @@
+name: PauseGame
+main: blackjack200.pausegame.PauseGame
+version: "0.0.1"
+api: ["MOT-SNAPSHOT"]
+author: Blackjack200
+description: Pause player's game
+permissions:
+  pausegame.pause:
+    description: Pause Player Game
+    default: op
